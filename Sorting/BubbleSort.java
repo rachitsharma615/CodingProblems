@@ -3,11 +3,11 @@ public class BubbleSort
 {
     public static void main(String[] args)
     {
-       int[] intArray=new int[]{3,2,4,5};
+       int[] intArray=new int[]{1,3,2,5,4,7};
 
        for(int i=0;i<intArray.length-1;i++)
        {
-           for(int j=i+1;j<intArray.length;j++)
+           for(int j=i+1;j<(intArray.length-i);j++)
            {
                if(intArray[j-1]>intArray[j])
                {
